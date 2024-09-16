@@ -1,2 +1,2 @@
 # WorkOutShakeUp
-Resistance Training Exercise selector
+WCF-Mongo application resistance Training Exercise selector
