@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MongoConversion/bin
+/MongoConversion/obj
+
+/WosiData/bin
+/WosiData/obj
+/WosiData/libmongocrypt.so
+/WosiData/libmongocrypt.dylib
+
+/WosiDomain/bin
+/WosiDomain/obj
+
+/WosiUi/bin
+/WosiUi/obj
+/WosiDomain/libmongocrypt.so
+/WosiDomain/libmongocrypt.dylib

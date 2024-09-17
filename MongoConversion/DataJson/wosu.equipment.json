@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6089d1c20c1c4de9706a290b"
+  },
+  "Description": "Barbell"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a290c"
+  },
+  "Description": "Box"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a290d"
+  },
+  "Description": "Cable - Bar"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a290e"
+  },
+  "Description": "Cable - Handles"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a290f"
+  },
+  "Description": "Dumbell"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a2910"
+  },
+  "Description": "Kettle Bell"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a2911"
+  },
+  "Description": "Machine"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a2912"
+  },
+  "Description": "Med Ball"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a2913"
+  },
+  "Description": "Plate"
+},
+{
+  "_id": {
+    "$oid": "6089d1d70c1c4de9706a2914"
+  },
+  "Description": "Rope"
+},
+{
+  "_id": {
+    "$oid": "6100387a35fcd4cf9810b6f7"
+  },
+  "Description": "Stability Ball"
+},
+{
+  "_id": {
+    "$oid": "66a90ac035fcd49144066f23"
+  },
+  "Description": "Band"
+}]
