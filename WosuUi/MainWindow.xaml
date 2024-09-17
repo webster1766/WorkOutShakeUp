@@ -1,0 +1,100 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WosuUi"
+        xmlns:WosiDomain="clr-namespace:WosiDomain.MongoDocs;assembly=WosiDomain" x:Class="WosuUi.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="346.669" Width="698.75" Loaded="Window_Loaded" Closing="Window_Closing">
+  <Window.Resources>
+    <CollectionViewSource x:Key="movementViewSource" d:DesignSource="{d:DesignInstance {x:Type WosiDomain:MovementDoc}, CreateList=True}"/>
+    <CollectionViewSource x:Key="movementBodyPartMovementsViewSource" Source="{Binding BodyParts, Source={StaticResource movementViewSource}}"/>
+    <CollectionViewSource x:Key="movementMovementEquipmentsViewSource" Source="{Binding Equipment, Source={StaticResource movementViewSource}}"/>
+  </Window.Resources>
+  <Grid DataContext="{StaticResource movementViewSource}" Margin="0,0,0,0">
+
+    <DataGrid x:Name="movementDataGrid" RowDetailsVisibilityMode="VisibleWhenSelected"  Margin="10,10,345,48" ItemsSource="{Binding}" 
+              EnableRowVirtualization="True" AutoGenerateColumns="False" PreparingCellForEdit="movementDataGrid_PreparingCellForEdit" CellEditEnding="movementDataGrid_CellEditEnding"
+              SelectionChanged="movementDataGrid_SelectionChanged" SelectedValuePath="Id" SelectionMode="Extended">
+      <DataGrid.Columns>
+        <DataGridTextColumn x:Name="nameColumn" Width="Auto" Header="Movement" Binding="{Binding Name}" SortDirection="Ascending"/>
+        <DataGridTextColumn x:Name="notesColumn" Width="Auto" Header="Notes" Binding="{Binding Notes}"/>
+      </DataGrid.Columns>
+    </DataGrid>
+    <Grid x:Name="grid1" HorizontalAlignment="Left" Margin="64,188,0,0" VerticalAlignment="Top">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+    </Grid>
+    <Grid x:Name="grid2" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+    </Grid>
+    <DataGrid x:Name="BodyPartMovementsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" 
+              ItemsSource="{Binding Source={StaticResource movementBodyPartMovementsViewSource}}" Margin="361,39,141,191" 
+              RowDetailsVisibilityMode="VisibleWhenSelected">
+      <DataGrid.Columns>
+        <!--<DataGridTextColumn x:Name="BodyPartIdColumn" Binding="{Binding BodyPartId}" Header="Body Part Id" Width="SizeToHeader"/>-->
+        <DataGridTextColumn x:Name="BodyPartNameColumn" Binding="{Binding Name}" Header="Movement Body Part" Width="SizeToHeader"/>
+        <!--<DataGridTextColumn x:Name="MovementIdColumn" Binding="{Binding MovementId}" Header="Movement Id" Width="SizeToHeader"/>-->
+      </DataGrid.Columns>
+    </DataGrid>
+    <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Margin="558,283,0,0" VerticalAlignment="Top" Width="41" 
+            Click="SaveButton_Click" Height="23"/>
+    <Button x:Name="NewMovementButton" Content="Create New Movement" HorizontalAlignment="Left" Margin="10,283,0,0" VerticalAlignment="Top" Width="135" 
+            Click="NewMovementButton_Click" Height="23"/>
+    <ComboBox x:Name="BodyPartComboBox" HorizontalAlignment="Left" Margin="561,60,0,0" Grid.Row="0" 
+               DisplayMemberPath="Name" SelectedValuePath="Id" ItemsSource="{Binding}" VerticalAlignment="Top" 
+               Width="120" />
+    <Button x:Name="AddBodyPartToMovementButton" HorizontalAlignment="Left" Margin="560,87,0,0" VerticalAlignment="Top" 
+      Width="120" Height="38" Click="AddBodyPartToMovementButton_Click">
+      <TextBlock Text="Add Body Part to Movement" TextWrapping="Wrap" TextAlignment="Center"/>
+    </Button>
+    <Label Content="Body Part:" HorizontalAlignment="Left" Margin="361,10,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Height="29"/>
+    <TextBox x:Name="BodyPartToAdd" HorizontalAlignment="Left" Height="23" Margin="427,11,0,0" TextWrapping="Wrap" Text="TextBox" 
+             VerticalAlignment="Top" Width="107" VerticalContentAlignment="Center"/>
+    <Button x:Name="AddBodyPartButton" Content="Add Body Part" HorizontalAlignment="Left" Margin="560,11,0,0" VerticalAlignment="Top" Width="120"
+            Click="AddBodyPartButton_Click" Height="23"/>
+    <Label Content="Body Parts" HorizontalAlignment="Left" Margin="582,34,0,0" VerticalAlignment="Top" />
+    <Button x:Name="FindMovementsByBodyPart" Content="By Body Part" HorizontalAlignment="Left" Margin="150,283,0,0" 
+            VerticalAlignment="Top" Width="84" Height="23" Click="FindMovementsByBodyPart_Click"/>
+    <Button x:Name="RefreshButton" Content="Refresh" HorizontalAlignment="Left" Margin="499,283,0,0" VerticalAlignment="Top" Width="54"
+            Click="RefreshButton_Click" Height="23"/>
+    <Label x:Name="label" Content="Equipment:" HorizontalAlignment="Left" Margin="355,150,0,0" VerticalAlignment="Top" Height="27"/>
+    <TextBox x:Name="EquipToAdd" HorizontalAlignment="Left" Height="23" Margin="427,150,0,0" TextWrapping="Wrap" Text="TextBox" 
+             VerticalAlignment="Top" Width="107" VerticalContentAlignment="Center"/>
+    <Button x:Name="AddEquipButton" Content="Add Equipment" HorizontalAlignment="Left" Margin="562,153,0,0" VerticalAlignment="Top" Width="119"
+            Click="AddEquipButton_Click"/>
+    <ComboBox x:Name="EquipmentComboBox" HorizontalAlignment="Left" Margin="562,205,0,0" VerticalAlignment="Top" Width="120"
+              DisplayMemberPath="Description" SelectedValuePath="Id" ItemsSource="{Binding}"/>
+    <Label x:Name="label1" Content="Equipment" HorizontalAlignment="Left" Margin="582,179,0,0" VerticalAlignment="Top"/>
+    <Button x:Name="AddEquipmentToMovement" HorizontalAlignment="Left" Margin="562,232,0,0" VerticalAlignment="Top" Width="119" Height="35"
+            Click="AddEquipmentToMovement_Click">
+      <TextBlock Text="Add Equipment to Movement" TextWrapping="Wrap" TextAlignment="Center"/>
+    </Button>
+    <DataGrid x:Name="MovementEquipmentsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" 
+              ItemsSource="{Binding Source={StaticResource movementMovementEquipmentsViewSource}}" Margin="361,177,141,49" 
+              RowDetailsVisibilityMode="VisibleWhenSelected">
+      <DataGrid.Columns>
+        <!--<DataGridTextColumn x:Name="equipmentIdColumn" Binding="{Binding EquipmentId}" Header="Equipment Id" Width="SizeToHeader"/>-->
+        <DataGridTextColumn x:Name="EquipmentNameColumn" Binding="{Binding Description}" Header="Movement Equipment" Width="SizeToHeader"/>
+        <!--<DataGridTextColumn x:Name="movementIdColumn" Binding="{Binding MovementId}" Header="Movement Id" Width="SizeToHeader"/>-->
+      </DataGrid.Columns>
+    </DataGrid>
+    <Button x:Name="BackupDbButton" Content="Backup DB" HorizontalAlignment="Left" Margin="604,283,0,0" VerticalAlignment="Top" Width="75"
+            Height="23" Click="BackupDbButton_Click"/>
+    <Button x:Name="GetRandomMovementByBodyPart" Content="Random By Body Part" HorizontalAlignment="Left" Margin="239,283,0,0" 
+            VerticalAlignment="Top" Width="124" Height="23" Click="GetRandomMovementByBodyPart_Click"/>
+
+  </Grid>
+</Window>

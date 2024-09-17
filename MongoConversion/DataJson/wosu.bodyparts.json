@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6089d1a80c1c4de9706a28ff"
+  },
+  "Name": "Biceps"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2900"
+  },
+  "Name": "Calves"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2901"
+  },
+  "Name": "Chest"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2902"
+  },
+  "Name": "Core"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2903"
+  },
+  "Name": "Delts"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2904"
+  },
+  "Name": "Forearm"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2905"
+  },
+  "Name": "Hams"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2906"
+  },
+  "Name": "Lats"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2907"
+  },
+  "Name": "Legs"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2908"
+  },
+  "Name": "Quads"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a2909"
+  },
+  "Name": "Traps"
+},
+{
+  "_id": {
+    "$oid": "6089d1b70c1c4de9706a290a"
+  },
+  "Name": "Triceps"
+}]

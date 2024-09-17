@@ -1,0 +1,2116 @@
+[{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2916"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Bar Dip",
+  "Notes": "bench assisted"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2917"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Delt Raise:Side",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2918"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290d"
+      },
+      "Description": "Cable - Bar"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290e"
+      },
+      "Description": "Cable - Handles"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Curls:Supin",
+  "Notes": "upright, flat, incline"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2919"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    }
+  ],
+  "Name": "Ab Roll Out",
+  "Notes": "use ab wheel"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291a"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2912"
+      },
+      "Description": "Med Ball"
+    }
+  ],
+  "Name": "Lunges",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290c"
+      },
+      "Description": "Box"
+    }
+  ],
+  "Name": "Push Up",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291c"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Swim:Freestyle",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291d"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Wrist Curl:Supin",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291e"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Wrist Curl:Pron",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a291f"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2908"
+      },
+      "Name": "Quads"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Bike",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2920"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2900"
+      },
+      "Name": "Calves"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2914"
+      },
+      "Description": "Rope"
+    }
+  ],
+  "Name": "Jump Rope",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2921"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Sit Up/Crunch",
+  "Notes": "flat, incline, exercise ball"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2922"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2909"
+      },
+      "Name": "Traps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Dead Lift",
+  "Notes": "hex bar"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2923"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Fly",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2924"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Knee To Elbow",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2926"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Curl:Pron",
+  "Notes": "upright, flat, incline"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2927"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Kickbacks",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2928"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Wrist Roll",
+  "Notes": "hex dbell, bbell on bench"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2929"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Wall Walk",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292a"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2905"
+      },
+      "Name": "Hams"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Dead Lift:Sumo",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Push Up:Incline",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292c"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290d"
+      },
+      "Description": "Cable - Bar"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Delt Raise:Front",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292d"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Burpee",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292e"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290d"
+      },
+      "Description": "Cable - Bar"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290e"
+      },
+      "Description": "Cable - Handles"
+    }
+  ],
+  "Name": "Pull Down",
+  "Notes": "Pron/Supin"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a292f"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2909"
+      },
+      "Name": "Traps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Clean (Jerk)",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2930"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2912"
+      },
+      "Description": "Med Ball"
+    }
+  ],
+  "Name": "Russian Twist",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2931"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Curl:Nuetral/Hammer",
+  "Notes": "upright, flat, incline"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2932"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Delt Press",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2933"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Squat",
+  "Notes": "back, front, goblet, air"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2934"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Toe To Bar",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2935"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290d"
+      },
+      "Description": "Cable - Bar"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Delt Hi Pull",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2936"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Kettle Bell Swings",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2937"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290d"
+      },
+      "Description": "Cable - Bar"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2914"
+      },
+      "Description": "Rope"
+    }
+  ],
+  "Name": "Press Down",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2938"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2905"
+      },
+      "Name": "Hams"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Dead Lift:Stiff Leg",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2939"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Swim:Kick",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293a"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Arnold Press",
+  "Notes": "reverse"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Chest Press",
+  "Notes": "flat, incline, decline"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293c"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2905"
+      },
+      "Name": "Hams"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    }
+  ],
+  "Name": "Good Morning",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293d"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Pull Up",
+  "Notes": "Pron/Supin, bench assisted"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293e"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    }
+  ],
+  "Name": "Thruster",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a293f"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Bar Dip:Gironda",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2941"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    }
+  ],
+  "Name": "Squat:Overhead",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2942"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Pull Over",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2943"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2914"
+      },
+      "Description": "Rope"
+    }
+  ],
+  "Name": "French Press",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2944"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Curl:Zottman",
+  "Notes": "upright, flat, incline"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2945"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290e"
+      },
+      "Description": "Cable - Handles"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Delt Raise:Rear",
+  "Notes": "pec dec, rear incline, face pull, lying"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2946"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Snatch",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2947"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Dead Lift:Sumo (Hi Pull)",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2948"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1c20c1c4de9706a290b"
+      },
+      "Description": "Barbell"
+    }
+  ],
+  "Name": "Curl:Skull",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2949"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2900"
+      },
+      "Name": "Calves"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Calf Raise:Seated",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a294b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Tri Extension:Behind",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a294c"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2908"
+      },
+      "Name": "Quads"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Stairs",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a294d"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2900"
+      },
+      "Name": "Calves"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Walk:Incline",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a294e"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Push Up:Close",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a294f"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Farmer Carry",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2950"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Sled Push",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2951"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Sled Pull",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2952"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2912"
+      },
+      "Description": "Med Ball"
+    }
+  ],
+  "Name": "Wall Ball Shots",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2953"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290c"
+      },
+      "Description": "Box"
+    }
+  ],
+  "Name": "Hand Stand Push Up",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2954"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Plank",
+  "Notes": "fore arms, straight arm"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2955"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1a80c1c4de9706a28ff"
+      },
+      "Name": "Biceps"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Row",
+  "Notes": "straight arm, t-bar, rings"
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2956"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2908"
+      },
+      "Name": "Quads"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2911"
+      },
+      "Description": "Machine"
+    }
+  ],
+  "Name": "Bike:Air/Assault",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2957"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290c"
+      },
+      "Description": "Box"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2912"
+      },
+      "Description": "Med Ball"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Step Up",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2958"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290c"
+      },
+      "Description": "Box"
+    }
+  ],
+  "Name": "Box Jumps",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a2959"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Bear Crawl",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a295a"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a290a"
+      },
+      "Name": "Triceps"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Crab Walk",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a295b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2905"
+      },
+      "Name": "Hams"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Squat:Bulgarian Split",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a295c"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2910"
+      },
+      "Description": "Kettle Bell"
+    }
+  ],
+  "Name": "Turkish Get Up",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6089d32c0c1c4de9706a295d"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2901"
+      },
+      "Name": "Chest"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Seal Walk",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "608ac96b0c1c4dbba4ef795b"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2905"
+      },
+      "Name": "Hams"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Nordic Leg Curl",
+  "Notes": ""
+},
+{
+  "_id": {
+    "$oid": "608b110a0c1c4d9460b48671"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2908"
+      },
+      "Name": "Quads"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2907"
+      },
+      "Name": "Legs"
+    }
+  ],
+  "Equipment": [],
+  "Name": "Nordic Leg Extension",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "608b1b860c1c4d5fa4ff30fa"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2904"
+      },
+      "Name": "Forearm"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    },
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a290f"
+      },
+      "Description": "Dumbell"
+    }
+  ],
+  "Name": "Bus Driver",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "610037d835fcd4cf9810b6f6"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2902"
+      },
+      "Name": "Core"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6100387a35fcd4cf9810b6f7"
+      },
+      "Description": "Stability Ball"
+    }
+  ],
+  "Name": "Swiss Ball Crunch",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "6195763335fcd49ed8c56758"
+  },
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2903"
+      },
+      "Name": "Delts"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "6089d1d70c1c4de9706a2913"
+      },
+      "Description": "Plate"
+    }
+  ],
+  "Name": "Lu Raises",
+  "Notes": null
+},
+{
+  "_id": {
+    "$oid": "63b729e035fcd4412cbc3616"
+  },
+  "BodyParts": [],
+  "Equipment": [],
+  "Name": "Seal Walk",
+  "Notes": "on sliders, hands or forearems"
+},
+{
+  "_id": {
+    "$oid": "66a90a8335fcd49144066f22"
+  },
+  "BodyParts": [],
+  "Equipment": [],
+  "Name": "Pull Aparts",
+  "Notes": null
+}]
