@@ -2,10 +2,21 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/
 /packages/
-/[Bb]in/
-/[Oo]bj/
 *.so
 *.dylib
 *.cache
+/MongoConversion/.vs
+/MongoConversion/bin/Debug
+/MongoConversion/obj/Debug
+/WosiData/.vs
+/WosiData/bin/Debug
+/WosiData/obj/Debug
+/WosiDomain/.vs
+/WosiDomain/bin/Debug
+/WosiDomain/obj/Debug
+/WosuUi/.vs
+/WosuUi/bin/Debug
+/WosuUi/obj/Debug
+/.vs
+*.bak
