@@ -26,7 +26,7 @@ namespace IntegrationTests
       //var list = await collection.Find(new BsonDocument("Name", "Jack"))
       //    .ToListAsync();
 
-      var query = bodyparts.AsQueryable();
+      var query = movements.AsQueryable();
       var list = query.ToList();
       foreach (var document in list)
       {
