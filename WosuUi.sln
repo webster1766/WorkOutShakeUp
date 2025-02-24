@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WosuUi", "WosuUi\WosuUi.csproj", "{583CD8EA-A015-4658-B845-20ED7D7C711E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WosuData", "WosiData\WosuData.csproj", "{11EE34BA-6016-45E6-895A-20A5F8232D58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoConversion", "MongoConversion\MongoConversion.csproj", "{DCAC75EB-0FF8-4F03-AB67-DBC8476CFB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{AF252E78-2BD0-4177-92C1-EBA3F499C39F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DCAC75EB-0FF8-4F03-AB67-DBC8476CFB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAC75EB-0FF8-4F03-AB67-DBC8476CFB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAC75EB-0FF8-4F03-AB67-DBC8476CFB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

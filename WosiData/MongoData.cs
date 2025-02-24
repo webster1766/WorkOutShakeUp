@@ -129,7 +129,8 @@ namespace WosiData
 
     public ObservableCollection<MovementDoc> GetMovements()
     {
-      return new ObservableCollection<MovementDoc>(this.context.Movements.AsQueryable().ToList());
+      var list = this.context.Movements.AsQueryable().ToList();
+      return new ObservableCollection<MovementDoc>(list);
     }
 
     public ObservableCollection<BodyPartDoc> GetBodyParts()
