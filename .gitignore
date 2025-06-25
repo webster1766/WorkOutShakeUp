@@ -9,5 +9,4 @@
 *.so
 *.dylib
 *.cache
-*/*.msi
-*.json
+*.msi
