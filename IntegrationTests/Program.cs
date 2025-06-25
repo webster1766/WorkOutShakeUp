@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WosiDomain;
 using WosiDomain.MongoDocs;
+using static WosiDomain.Shared;
 
 namespace IntegrationTests
 {
@@ -18,7 +19,7 @@ namespace IntegrationTests
     static void Main(string[] args)
     {
       var client = new MongoClient("mongodb://localhost:27017");
-      mongoDb = client.GetDatabase("wosu");
+      mongoDb = client.GetDatabase(DB_NAME);
 
       //await collection.InsertOneAsync(new BsonDocument("Name", "Jack"));
 

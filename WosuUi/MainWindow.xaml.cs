@@ -23,7 +23,7 @@ namespace WosuUi
     private MovementDoc _currentMovement;
     private bool _isLoading;
     private bool _isEditing;
-    private CollectionViewSource _movementViewSource;
+    //private CollectionViewSource _movementViewSource;
 
     private const int MOVEMENT_COL_INDEX = 0;
     private const int NOTES_COL_INDEX = 1;
@@ -296,26 +296,24 @@ namespace WosuUi
 
     private void BackupDbButton_Click(object sender, RoutedEventArgs e)
     {
-      string path = ConfigurationManager.AppSettings["BackupPath"].ToString();
-      if (string.IsNullOrWhiteSpace(path))
-      {
-        MessageBox.Show("Unspecified BackupPath in App.config");
-        return;
-      }
+      //string folder = "..\\..\\..\\MongoConversion\\DataJson";
+      //bool exists = Directory.Exists(folder);
+      string path = ConfigurationManager.AppSettings["BackupPath"].ReplaceNullString();
+      List<string> results = _data.BackupDb(path);
+      MessageBox.Show(results.JoinToString(Environment.NewLine));
 
-      string backupLocation = _data.BackupDb(path);
-      string zipLocation = this.ZipBackupFile(path);
-      if (!string.IsNullOrWhiteSpace(zipLocation) && File.Exists(zipLocation))
-      {
-        backupLocation = zipLocation;
-      }
+      //string zipLocation = this.ZipBackupFile(path);
+      //if (!string.IsNullOrWhiteSpace(zipLocation) && File.Exists(zipLocation))
+      //{
+      //  backupLocation = zipLocation;
+      //}
 
-      if (File.Exists(backupLocation) &&
-        MessageBoxResult.Yes == MessageBox.Show("Open backup location?", "Select File", MessageBoxButton.YesNo, MessageBoxImage.Question))
-      {
-        string argument = $"/select,\"{backupLocation}\"";
-        Process.Start("explorer.exe", argument);
-      }
+      //if (File.Exists(backupLocation) &&
+      //  MessageBoxResult.Yes == MessageBox.Show("Open backup location?", "Select File", MessageBoxButton.YesNo, MessageBoxImage.Question))
+      //{
+      //  string argument = $"/select,\"{backupLocation}\"";
+      //  Process.Start("explorer.exe", argument);
+      //}
     }
 
     private string ZipBackupFile(string path)
