@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +11,7 @@ using MongoDB.Driver;
 using MongoDB.Driver.Linq;
 using MoreLinq;
 using WosiDomain.MongoDocs;
+using static WosiDomain.Shared;
 
 namespace WosiData
 {
@@ -174,9 +177,39 @@ namespace WosiData
       return new ObservableCollection<MovementDoc>(moves.RandomSubset(1));
     }
 
-    public string BackupDb(string path)
+    public List<string> BackupDb(string path)
     {
-      return string.Empty;
+      var outputs = new List<string>
+      {
+        this.BackupCollection(path, "movements"),
+        this.BackupCollection(path, "bodyparts"),
+        this.BackupCollection(path, "equipment")
+      };
+
+      return outputs;
+    }
+
+    private string BackupCollection(string path, string collection)
+    {
+      string result = string.Empty;
+      try
+      {
+        var process = new Process();
+        process.StartInfo.FileName = "\"C:\\Program Files\\MongoDB\\DbTools\\bin\\mongoexport.exe\"";
+        //process.StartInfo.Arguments = $"mongoexport --db=wosu --collection={collection} --out={collection}.json";
+        process.StartInfo.Arguments = $"--db={DB_NAME} --collection={collection} --out={Path.Combine(path, collection)}.json";
+        process.StartInfo.UseShellExecute = false;
+        process.StartInfo.RedirectStandardOutput = true;
+        process.Start();
+        result = process.StandardOutput.ReadToEnd();
+        process.WaitForExit();
+      }
+      catch (Exception ex)
+      {
+        result = ex.Message;
+      }
+
+      return result.ReplaceNoValue($"Backup of collection {collection} successful");
     }
   }
 }
