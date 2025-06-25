@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WosuUi", "WosuUi\WosuUi.csproj", "{583CD8EA-A015-4658-B845-20ED7D7C711E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WosuDomain", "WosiDomain\WosuDomain.csproj", "{778B9EC7-63BF-4102-A69D-51A662050153}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WosuData", "WosiData\WosuData.csproj", "{11EE34BA-6016-45E6-895A-20A5F8232D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{AF252E78-2BD0-4177-92C1-EBA3F499C39F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{11EE34BA-6016-45E6-895A-20A5F8232D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EE34BA-6016-45E6-895A-20A5F8232D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EE34BA-6016-45E6-895A-20A5F8232D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF252E78-2BD0-4177-92C1-EBA3F499C39F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

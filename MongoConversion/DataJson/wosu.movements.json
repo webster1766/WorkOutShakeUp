@@ -2109,8 +2109,22 @@
   "_id": {
     "$oid": "66a90a8335fcd49144066f22"
   },
-  "BodyParts": [],
-  "Equipment": [],
+  "BodyParts": [
+    {
+      "_id": {
+        "$oid": "6089d1b70c1c4de9706a2906"
+      },
+      "Name": "Lats"
+    }
+  ],
+  "Equipment": [
+    {
+      "_id": {
+        "$oid": "66a90ac035fcd49144066f23"
+      },
+      "Description": "Band"
+    }
+  ],
   "Name": "Pull Aparts",
   "Notes": null
 }]
