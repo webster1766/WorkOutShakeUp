@@ -74,4 +74,5 @@
 {"_id":{"$oid":"6195763335fcd49ed8c56758"},"BodyParts":[{"_id":{"$oid":"6089d1b70c1c4de9706a2903"},"Name":"Delts"}],"Equipment":[{"_id":{"$oid":"6089d1d70c1c4de9706a2913"},"Description":"Plate"}],"Name":"Lu Raises","Notes":null}
 {"_id":{"$oid":"63b729e035fcd4412cbc3616"},"BodyParts":[],"Equipment":[],"Name":"Seal Walk","Notes":"on sliders, hands or forearems"}
 {"_id":{"$oid":"66a90a8335fcd49144066f22"},"BodyParts":[{"_id":{"$oid":"6089d1b70c1c4de9706a2906"},"Name":"Lats"}],"Equipment":[{"_id":{"$oid":"66a90ac035fcd49144066f23"},"Description":"Band"}],"Name":"Pull Aparts","Notes":null}
-{"_id":{"$oid":"685c0697a7567f0a2d9b00f8"},"BodyParts":[{"_id":{"$oid":"6089d1b70c1c4de9706a2903"},"Name":"Delts"}],"Equipment":[],"Name":"Face Pull","Notes":"Cable with ropes"}
+{"_id":{"$oid":"6aea56332c244c9699f1cc0d"},"BodyParts":[],"Equipment":[],"Name":"Bradford Press","Notes":"Ez Bar"}
+{"_id":{"$oid":"6aea5d14700d7c2095606837"},"BodyParts":[],"Equipment":[],"Name":"Face Pull","Notes":"Cable with ropes"}
