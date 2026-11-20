@@ -21,3 +21,4 @@
 /.vs
 *.bak
 /IntegrationTests/bin/Debug
+/IntegrationTests/obj/Debug
